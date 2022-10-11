@@ -4,7 +4,7 @@ export default defineConfig({
   title: 'chook',
   favicon: 'https://avatars.githubusercontent.com/u/62332701?s=40&v=4',
   logo: 'https://avatars.githubusercontent.com/u/62332701?s=40&v=4',
-  outputPath: 'docs',
+  outputPath: 'dist',
   mode: 'site',
   base: "chook",
   navs: [
