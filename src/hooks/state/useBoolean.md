@@ -13,6 +13,7 @@ order: 2
  */
 import React from 'react';
 import useBoolean from "./useBoolean";
+import "../buttonic-push.css";
 
 export default () => {
     const [state, { set, toggle, setTrue, setFalse }] = useBoolean(false);
@@ -29,19 +30,19 @@ export default () => {
                 margin: "10px",
             }}>{ state ? "true" : "false" }</div>
             <div style={{ textAlign: "center" }}>
-                <button style={btns} onClick={ () => {
+                <button className="btnic-push" style={btns} onClick={ () => {
                     set(true)
                 }}>set(true)</button>
-                <button style={btns} onClick={ () => {
+                <button className="btnic-push" style={btns} onClick={ () => {
                     set(false)
                 }}>set(false)</button>
-                <button style={btns} onClick={ () => {
+                <button className="btnic-push" style={btns} onClick={ () => {
                     toggle()
                 }}>toggle</button>
-                <button style={btns} onClick={ () => {
+                <button className="btnic-push" style={btns} onClick={ () => {
                     setTrue()
                 }}>setTrue</button>
-                <button style={btns} onClick={ () => {
+                <button className="btnic-push" style={btns} onClick={ () => {
                     setFalse()
                 }}>setFalse</button>
             </div>

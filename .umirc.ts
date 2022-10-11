@@ -4,15 +4,43 @@ export default defineConfig({
   title: 'chook',
   favicon: 'https://avatars.githubusercontent.com/u/62332701?s=40&v=4',
   logo: 'https://avatars.githubusercontent.com/u/62332701?s=40&v=4',
-  outputPath: 'docs-dist',
+  outputPath: 'docs',
   mode: 'site',
-  // more config: https://d.umijs.org/config
-
+  base: "chook",
   navs: [
-    null, // null 值代表保留约定式生成的导航，只做增量配置
+    null,
+    {
+      title: "友链",
+      children: [
+        {
+          title: "ahook",
+          path: "https://ahooks.js.org"
+        },
+        {
+          title: "Collection of React Hooks",
+          path: "https://nikgraf.github.io/react-hooks/"
+        },
+        {
+          title: "dumi",
+          path: "https://d.umijs.org/"
+        },
+        {
+          title: "typescript",
+          path: "https://www.typescriptlang.org/"
+        },
+        {
+          title: "Frontend Masters",
+          path: "https://frontendmasters.com"
+        }
+      ]
+    },
     {
       title: 'My GitHub',
       path: 'https://github.com/can-dy-jack',
     }
   ],
+  description: "description",
+  theme: {
+    '@c-primary': '#61dafb',
+  }
 });
