@@ -1,0 +1,31 @@
+.btnic-push {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  margin: 5px 12px 5px 0;
+  padding: 10px 15px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  /* font-family: sans-serif; */
+  text-decoration: none;
+  text-shadow: 0 1px 1px #555;
+  vertical-align: middle;
+  background-color: #2ca7cb;
+  border: 1px solid #1d6f87;
+  border-radius: 5px;
+  outline: 0;
+  box-shadow: 0 4px 0 #1d6f87;
+  cursor: pointer;
+  transition: all 0.1s linear;
+  zoom: 1;
+}
+.btnic-push:focus,
+.btnic-push:hover {
+  background-color: #50b6d4;
+}
+.btnic-push:active {
+  top: 4px;
+  background-color: #299cbd;
+  box-shadow: 0 0 0 #1d6f87, inset 0 1px 5px #444;
+}

@@ -6,7 +6,7 @@ export default defineConfig({
   logo: 'https://avatars.githubusercontent.com/u/62332701?s=40&v=4',
   outputPath: 'dist',
   mode: 'site',
-  base: "chook",
+  base: "/chook/",
   navs: [
     null,
     {
@@ -39,8 +39,7 @@ export default defineConfig({
       path: 'https://github.com/can-dy-jack',
     }
   ],
-  description: "description",
   theme: {
-    '@c-primary': '#61dafb',
+    '@c-primary': '#1685a9',
   }
 });

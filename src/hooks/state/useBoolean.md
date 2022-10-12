@@ -13,15 +13,10 @@ order: 2
  */
 import React from 'react';
 import useBoolean from "./useBoolean";
-import "../buttonic-push.css";
+import "../buttonic-tiny.css";
 
 export default () => {
     const [state, { set, toggle, setTrue, setFalse }] = useBoolean(false);
-    const btns = {
-        padding: "5px 10px",
-        margin: "2px 5px",
-        cursor: "pointer"
-    }
     return (
         <section>
             <div style={{
@@ -30,19 +25,19 @@ export default () => {
                 margin: "10px",
             }}>{ state ? "true" : "false" }</div>
             <div style={{ textAlign: "center" }}>
-                <button className="btnic-push" style={btns} onClick={ () => {
+                <button className="btnic-push" onClick={ () => {
                     set(true)
                 }}>set(true)</button>
-                <button className="btnic-push" style={btns} onClick={ () => {
+                <button className="btnic-push" onClick={ () => {
                     set(false)
                 }}>set(false)</button>
-                <button className="btnic-push" style={btns} onClick={ () => {
+                <button className="btnic-push" onClick={ () => {
                     toggle()
                 }}>toggle</button>
-                <button className="btnic-push" style={btns} onClick={ () => {
+                <button className="btnic-push" onClick={ () => {
                     setTrue()
                 }}>setTrue</button>
-                <button className="btnic-push" style={btns} onClick={ () => {
+                <button className="btnic-push" onClick={ () => {
                     setFalse()
                 }}>setFalse</button>
             </div>

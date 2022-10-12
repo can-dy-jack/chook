@@ -12,18 +12,13 @@ toc: content
 ### 原生[useState](https://reactjs.org/docs/hooks-state.html)
 ```jsx
 import React, { useState } from 'react';
-import "../buttonic-push.css";
+import "../buttonic-tiny.css";
 
 export default () => {
     const [state, setState] = useState({
         hello: "chook",
         cout: 0
     });
-    const btns = {
-        padding: "5px 10px",
-        margin: "2px 5px",
-        cursor: "pointer"
-    }
     return (
         <section>
             <pre style={{
@@ -31,13 +26,13 @@ export default () => {
                 fontSize: "1rem"
             }}>{ JSON.stringify(state, null, 4) }</pre>
             <div>
-                <button className="btnic-push" style={btns} onClick={ 
+                <button className="btnic-push" onClick={ 
                     () => setState({ hello: "hooks" }) 
                     }>set hello</button>
-                <button className="btnic-push" style={btns} onClick={ 
+                <button className="btnic-push" onClick={ 
                     () => setState({ cout: state.cout+1 }) 
                     }>add count</button>
-                <button className="btnic-push" style={btns} onClick={ 
+                <button className="btnic-push" onClick={ 
                     () => setState({ author: "kart jim" }) 
                     }>add author</button>
             </div>
@@ -50,7 +45,7 @@ export default () => {
 ```jsx
 import React from 'react';
 import useSetState from "./useSetState.js";
-import "../buttonic-push.css";
+import "../buttonic-tiny.css";
 
 export default () => {
     const [state, setState] = useSetState({
@@ -58,9 +53,7 @@ export default () => {
         cout: 0
     });
     const btns = {
-        padding: "5px 10px",
-        margin: "2px 5px",
-        cursor: "pointer"
+        margin: "2px 5px"
     }
     return (
         <section>
