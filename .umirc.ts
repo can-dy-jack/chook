@@ -41,5 +41,6 @@ export default defineConfig({
   ],
   theme: {
     '@c-primary': '#1685a9',
-  }
+  },
+  styles: ["a {text-decoration:none;}"]
 });
