@@ -1,7 +1,7 @@
 {
   "name": "chook",
-  "version": "0.0.1",
-  "description": "reack hook snippets",
+  "version": "0.1.0",
+  "description": "reack hook library",
   "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/types.d.ts",
