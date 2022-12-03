@@ -8,8 +8,8 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "CHook": ["src"],
-      "CHook/*": ["src/*", "*"]
+      "chook": ["src"],
+      "chook/*": ["src/*", "*"]
     }
   }
 }

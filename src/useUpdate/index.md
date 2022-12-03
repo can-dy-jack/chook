@@ -25,7 +25,7 @@ export default () => {
         <section>
             <div>now: { new Date().toLocaleTimeString() }</div>
             <p>
-                <button onClick={update}>useUpdate</button>
+                <button onClick={update} className="btn">useUpdate</button>
             </p>
         </section>
     )

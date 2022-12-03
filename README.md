@@ -5,6 +5,8 @@
 
 reack hook snippets
 
+<!-- .d.ts文件 方便js操作？ -->
+
 ## Usage
 
 Peer dependencies that should be installed:

@@ -1,7 +1,7 @@
 ---
 hero:
-  title: library
-  description: reack hook snippets
+  title: CHook
+  description: reack hook library
   actions:
     - text: 开始使用
       link: /guide

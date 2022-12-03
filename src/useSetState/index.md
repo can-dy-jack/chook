@@ -19,6 +19,7 @@ group:
 ### 原生[useState](https://reactjs.org/docs/hooks-state.html)
 ```jsx
 import React, { useState } from 'react';
+import "../btn.css";
 
 export default () => {
     const [state, setState] = useState({
@@ -32,13 +33,13 @@ export default () => {
                 fontSize: "1rem"
             }}>{ JSON.stringify(state, null, 4) }</pre>
             <div>
-                <button className="btnic-push" onClick={ 
+                <button className="btn" onClick={ 
                     () => setState({ hello: "hooks" }) 
                     }>set hello</button>
-                <button className="btnic-push" onClick={ 
+                <button className="btn" onClick={ 
                     () => setState({ cout: state.cout+1 }) 
                     }>add count</button>
-                <button className="btnic-push" onClick={ 
+                <button className="btn" onClick={ 
                     () => setState({ author: "kart jim" }) 
                     }>add author</button>
             </div>
@@ -57,9 +58,6 @@ export default () => {
         hello: "chook",
         cout: 0
     });
-    const btns = {
-        margin: "2px 5px"
-    }
     return (
         <section>
             <pre style={{
@@ -67,13 +65,13 @@ export default () => {
                 fontSize: "1rem"
             }}>{ JSON.stringify(state, null, 4) }</pre>
             <div>
-                <button className="btnic-push" style={btns} onClick={ 
+                <button className="btn" onClick={ 
                     () => setState({ hello: "hooks" }) 
                     }>set hello</button>
-                <button className="btnic-push" style={btns} onClick={ 
+                <button className="btn" onClick={ 
                     () => setState({ cout: state.cout+1 }) 
                     }>add count</button>
-                <button className="btnic-push" style={btns} onClick={ 
+                <button className="btn" onClick={ 
                     () => setState({ author: "kart jim" }) 
                     }>add author</button>
             </div>
