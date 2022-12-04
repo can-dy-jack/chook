@@ -31,3 +31,24 @@ export default () => {
     )
 }
 ```
+
+
+## 实现源码
+```jsx | pure
+import { useState } from "react";
+
+function useUpdate(): Function {
+    const [_, set] = useState({});
+    return () => set({});
+}
+
+export default useUpdate;
+```
+
+### API
+
+```js
+const update = useUpdate();
+// use: update()
+```
+

@@ -1,8 +1,6 @@
 import { useState } from "react";
 
-type UseUpdate = () => Function
-
-const useUpdate: UseUpdate = () => {
+function useUpdate(): Function {
     const [_, set] = useState({});
     return () => set({});
 }

@@ -17,6 +17,9 @@ group:
 
 ## 在线演示
 ### 原生[useState](https://reactjs.org/docs/hooks-state.html)
+
+原生 `useState` 在管理 `object` 类型的 `state` 时，每次更新 `state` 都是直接替换原来的 `object` ，而不是覆盖原来的属性。
+
 ```jsx
 import React, { useState } from 'react';
 import "../btn.css";
@@ -49,6 +52,7 @@ export default () => {
 ```
 
 ### 使用`useSetState`
+和 class 组件中 `this.state` 和 `this.setState` 一样管理 `object` 类型的 `state` 。
 ```jsx
 import React from 'react';
 import { useSetState } from 'chook';
@@ -80,16 +84,30 @@ export default () => {
 }
 ```
 
+## 实现源码
+```jsx | pure 
+import { useCallback, useState } from "react";
 
-```jsx
-import React from 'react';
-import { helper } from "chook"
+const useSetState = <S extends Record<string, any>>(initialState: S | (() => S) = {} as S): [S, Function] => {
+  const [state, set] = useState(initialState);
 
-export default () => (
-    <div>
-        { helper._tail([1,2,3,4,5])}
-    </div>
-)
+  const updateState = useCallback((patch: any) => {
+    set((pre: object | Function) => {
+      let cur = typeof patch === 'function' ? patch(pre) : patch
+      return {
+        ...pre,
+        ...cur
+      };
+    });
+  }, []);
+  return [state, updateState];
+}
+
+export default useSetState;
 ```
 
+## API
+```js | pure
+const [state, setState] = useSetState(initialState);
+```
 

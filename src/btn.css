@@ -16,11 +16,11 @@
     background-color: rgb(246, 248, 250);
     box-shadow: 0 1px 0 rgba(103, 116, 131, 0.1), inset 0 1px 0 rgba(255,255,255, .25);
     margin: 4px;
-    transition: all 240ms linear;
+    transition: all 240ms ease;
 }
 .btn:hover {
     background-color: rgb(243, 244, 246);
 }
 .btn:active {
-    background-color: rgb(235, 236, 240);
+    background-color: rgb(225, 226, 230);
 }
