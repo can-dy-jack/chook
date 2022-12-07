@@ -7,6 +7,7 @@ import usePrevious from "./usePrevious";
 import useUnmount from "./useUnmount";
 import useUnmountedRef from "./useUnmountedRef";
 import useSafeState from "./useSafeState";
+import useTitle from "./useTitle";
 
 export {
     useSetState,
@@ -17,5 +18,6 @@ export {
     useUnmount,
     useUnmountedRef,
     useSafeState,
+    useTitle,
     helper
 }
