@@ -4,18 +4,21 @@ title: 指南
 
 ## 使用
 ### npm
+
+npm 上已有名为 `chook` 的包（😢）,只能改个名字（`@kartjim/chook`）上传到npm。
+
 ```bash
-npm i chook
+npm i @kartjim/chook
 ```
 
 然后导入：
 ```ts
 // 别忘了大括号！！！
-import { useSetState } from 'chook';
+import { useSetState } from '@kartjim/chook';
 // useSetState()
 
 // or 
-import * as chook from "chook";
+import * as chook from "@kartjim/chook";
 // chook.useSetState()
 ```
 

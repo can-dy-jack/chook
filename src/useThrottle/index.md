@@ -55,7 +55,7 @@ export default () => {
  * description: 一段时间内只触发一次
  */
 import React, { useRef } from 'react';
-import { useThrottle } from "chook";
+import { useThrottle } from "@kartjim/chook";
 
 export default () => { 
     const circle2 = useRef();

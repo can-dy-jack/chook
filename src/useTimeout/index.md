@@ -22,7 +22,7 @@ group: effect
  * description: 三秒后加一
  */
 import React, { useState } from 'react';
-import {useTimeout} from "chook";
+import {useTimeout} from "@kartjim/chook";
 
 export default () => {
   const [count, setCount] = useState(0);
@@ -39,7 +39,7 @@ export default () => {
  * description: 动态修改 delay 以实现定时器间隔变化与暂停。
  */
 import React, { useState } from 'react';
-import {useTimeout} from "chook";
+import {useTimeout} from "@kartjim/chook";
 import "../btn.css";
 
 export default () => {

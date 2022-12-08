@@ -18,7 +18,7 @@ useInterval 封装 setInterval 功能
  * description: 每秒加一
  */
 import React, { useState } from 'react';
-import {useInterval} from "chook";
+import {useInterval} from "@kartjim/chook";
 
 export default () => {
   const [count, setCount] = useState(0);
@@ -36,7 +36,7 @@ export default () => {
  * description: 动态修改 `delay` 以实现定时器间隔变化与暂停。
  */
 import React, { useState } from 'react';
-import {useInterval} from "chook";
+import {useInterval} from "@kartjim/chook";
 import "../btn.css";
 
 export default () => {

@@ -56,7 +56,7 @@ export default () => {
  * description: 防止抖动！
  */
 import React, { useRef } from 'react';
-import { useDebounce } from "chook";
+import { useDebounce } from "@kartjim/chook";
 
 export default () => { 
     const circle = useRef();

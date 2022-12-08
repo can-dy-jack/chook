@@ -22,7 +22,7 @@ features:
 
 开发中~ 暂未提交到 npm !
 ```bash
-# npm i chook
+npm i @kartjim/chook
 ```
 
 GitHub地址： [can-dy-jack/chook](https://github.com/can-dy-jack/chook)

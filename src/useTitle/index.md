@@ -12,7 +12,7 @@ group:
 
 ```jsx
 import React from "react";
-import { useTitle } from "chook";
+import { useTitle } from "@kartjim/chook";
 
 export default () => {
     useTitle("custom title");

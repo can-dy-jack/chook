@@ -52,7 +52,7 @@ export default () => {
 
 ```jsx
 import React, { useState, useCallback } from 'react'
-import {useClosure} from "chook"
+import {useClosure} from "@kartjim/chook"
 
 export default () => {
   const [text, setText] = useState(0);

@@ -11,7 +11,7 @@ group: state
 ## 使用案例
 ```jsx
 import React from 'react'
-import { useSet } from 'chook'
+import { useSet } from '@kartjim/chook'
 import "../btn.css"
 
 export default () => {

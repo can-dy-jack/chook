@@ -18,7 +18,7 @@ group:
 ## 示例
 ```jsx
 import React, { useState } from "react";
-import { useBoolean, useMount } from "chook";
+import { useBoolean, useMount } from "@kartjim/chook";
 
 const MyComponent = () => {
   const [state, setState] = useState("");

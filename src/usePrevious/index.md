@@ -20,7 +20,7 @@ group: state
  * description: 记录上次的 `count` 值
  */
 import React, { useState } from 'react';
-import { usePrevious } from "chook";
+import { usePrevious } from "@kartjim/chook";
 import "../btn.css";
 
 export default () => {

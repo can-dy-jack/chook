@@ -14,7 +14,7 @@ group: LifeCycle
 ## 示例
 ```jsx
 import React, { useState } from "react";
-import { useBoolean, useUnmount } from "chook";
+import { useBoolean, useUnmount } from "@kartjim/chook";
 import "../btn.css";
 
 function MyComponents({func}) {

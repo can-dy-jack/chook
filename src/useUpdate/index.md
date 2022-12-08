@@ -17,7 +17,7 @@ group:
 
 ```jsx
 import React from 'react';
-import { useUpdate } from "chook";
+import { useUpdate } from "@kartjim/chook";
 
 export default () => {
     const update = useUpdate();

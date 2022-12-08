@@ -55,7 +55,7 @@ export default () => {
 和 class 组件中 `this.state` 和 `this.setState` 一样管理 `object` 类型的 `state` 。
 ```jsx
 import React from 'react';
-import { useSetState } from 'chook';
+import { useSetState } from '@kartjim/chook';
 
 export default () => {
     const [state, setState] = useSetState({

@@ -14,7 +14,7 @@ group: state
 
 ```tsx | pure
 import { useCallback, useState } from "react";
-import useUnmountedRef from "../useUnmountedRef"
+import useUnmountedRef from "@kartjim/chook"
 
 function useSafeState<T>(initialState: T): [T, Function] {
     const unmountRef = useUnmountedRef();

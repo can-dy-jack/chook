@@ -18,7 +18,7 @@ group:
  * description: 其中`set` 设置为给定的值, `toggle`设置为相反值, `setTrue`设置为真, `setFalse`设置为假
  */
 import React from 'react';
-import { useBoolean } from "chook";
+import { useBoolean } from "@kartjim/chook";
 
 export default () => {
     const [state, { set, toggle, setTrue, setFalse }] = useBoolean(false);
