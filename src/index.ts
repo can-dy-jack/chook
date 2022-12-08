@@ -8,6 +8,10 @@ import useUnmount from "./useUnmount";
 import useUnmountedRef from "./useUnmountedRef";
 import useSafeState from "./useSafeState";
 import useTitle from "./useTitle";
+import useClosure from "./useClosure";
+import useInterval from "./useInterval";
+import useTimeout from "./useTimeout";
+import useDebounce from "./useDebounce";
 
 export {
     useSetState,
@@ -19,5 +23,9 @@ export {
     useUnmountedRef,
     useSafeState,
     useTitle,
+    useClosure,
+    useInterval,
+    useTimeout,
+    useDebounce,
     helper
 }

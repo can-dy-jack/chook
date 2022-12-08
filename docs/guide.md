@@ -8,6 +8,17 @@ title: 指南
 npm i chook
 ```
 
+然后导入：
+```ts
+// 别忘了大括号！！！
+import { useSetState } from 'chook';
+// useSetState()
+
+// or 
+import * as chook from "chook";
+// chook.useSetState()
+```
+
 ### 直接copy！
 每个自定义 hook 我都会将源码贴出，以便可以直接使用在您的项目而不用下载整个库。
 
