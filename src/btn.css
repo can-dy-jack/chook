@@ -24,3 +24,16 @@
 .btn:active {
     background-color: rgb(225, 226, 230);
 }
+.btn.disabled {
+    background-color: rgb(235, 234, 236);
+    cursor: default;
+    box-shadow: none;
+}
+.btn.disabled:active, .btn.disabled:hover {
+    background-color: rgb(235, 234, 236);
+}
+
+/* pre */
+pre, pre code {
+    font-family: Fira Code, JeBrains Mono, monospace, sans-serif;
+}

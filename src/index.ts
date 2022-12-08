@@ -12,6 +12,8 @@ import useClosure from "./useClosure";
 import useInterval from "./useInterval";
 import useTimeout from "./useTimeout";
 import useDebounce from "./useDebounce";
+import useSet from "./useSet";
+import useThrottle from "./useThrottle";
 
 export {
     useSetState,
@@ -27,5 +29,7 @@ export {
     useInterval,
     useTimeout,
     useDebounce,
+    useSet,
+    useThrottle,
     helper
 }

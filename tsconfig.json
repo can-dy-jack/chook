@@ -4,6 +4,7 @@
     "declaration": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "lib": ["ES2015", "DOM"],
     "jsx": "react",
     "baseUrl": "./",
     "paths": {
