@@ -1,6 +1,6 @@
 {
   "name": "@kartjim/chook",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "reack hook library",
   "license": "MIT",
   "module": "dist/index.js",
@@ -8,6 +8,11 @@
   "files": [
     "dist"
   ],
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/can-dy-jack/chook.git"
+	},
+  "homepage": "https://kartjim.cn/chook",
   "scripts": {
     "build": "father build",
     "build:watch": "father dev",
@@ -21,7 +26,7 @@
     "prepublishOnly": "father doctor && npm run build",
     "start": "npm run dev",
     "test": "jest",
-    "dp": "gh-pages -d docs-dist"
+    "dp": "pnpm docs:build && gh-pages -d docs-dist"
   },
   "commitlint": {
     "extends": [

@@ -20,10 +20,8 @@ features:
     description: 本仓库并不是单纯的收集所有hooks代码，而是加入必要的分析和使用指南，更有代码块demo展示
 ---
 
-开发中~ 暂未提交到 npm !
 ```bash
 npm i @kartjim/chook
 ```
 
 GitHub地址： [can-dy-jack/chook](https://github.com/can-dy-jack/chook)
-

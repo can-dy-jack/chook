@@ -7,10 +7,8 @@ reack hook library
 
 ### 计划
 
-- [x] 发布到 npm
 - Jest 测试文件
-
-<!-- .d.ts文件 方便js操作？ -->
+- 更多 hook 
 
 ## LICENSE
 MIT
