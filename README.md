@@ -5,11 +5,6 @@
 
 reack hook library
 
-### 计划
-
-- Jest 测试文件
-- 更多 hook 
-
 ## LICENSE
 MIT
 

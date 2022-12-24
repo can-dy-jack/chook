@@ -1,5 +1,5 @@
 ---
-title: useMount
+title: useBoolean
 order: 2
 toc: content
 

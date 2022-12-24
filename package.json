@@ -9,10 +9,14 @@
     "dist"
   ],
   "repository": {
-		"type": "git",
-		"url": "https://github.com/can-dy-jack/chook.git"
-	},
+    "type": "git",
+    "url": "https://github.com/can-dy-jack/chook.git"
+  },
   "homepage": "https://kartjim.cn/chook",
+  "keywords": [
+    "react-hooks",
+    "chook"
+  ],
   "scripts": {
     "build": "father build",
     "build:watch": "father dev",
@@ -63,6 +67,7 @@
     "@babel/preset-env": "^7.20.2",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@testing-library/react-hooks": "^8.0.1",
     "@types/jest": "^29.2.3",
     "@types/react": "^18.0.25",
     "@umijs/lint": "^4.0.0",
