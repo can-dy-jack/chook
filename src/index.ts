@@ -17,6 +17,7 @@ import useThrottle from "./useThrottle";
 import useMap from "./useMap";
 import useActive from "./useActive";
 import useClickOutside from "./useClickOutside";
+import useFocus from "./useFocus";
 
 export {
     useSetState,
@@ -37,5 +38,6 @@ export {
     helper,
     useMap,
     useActive,
-    useClickOutside
+    useClickOutside,
+    useFocus
 }
