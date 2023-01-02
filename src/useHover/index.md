@@ -9,6 +9,8 @@ group:
 ---
 # useHover
 
+> 鼠标是否移入
+
 ```tsx
 import React from 'react';
 import { useHover } from '@kartjim/chook';
