@@ -18,6 +18,8 @@ import useMap from "./useMap";
 import useActive from "./useActive";
 import useClickOutside from "./useClickOutside";
 import useFocus from "./useFocus";
+import useHover from "./useHover";
+import useMousePosition from "./useMousePosition";
 
 export {
     useSetState,
@@ -37,7 +39,10 @@ export {
     useThrottle,
     helper,
     useMap,
+    // event
     useActive,
     useClickOutside,
-    useFocus
+    useFocus,
+    useHover,
+    useMousePosition
 }

@@ -12,4 +12,8 @@ export default defineConfig({
   theme: {
     '@c-primary': '#0d6efd',
   },
+  styles: [
+    `::-webkit-scrollbar {height: 6px;width: 6px;background-color: transparent;}`,
+    `::-webkit-scrollbar-thumb {background: rgba(13, 110, 253, .5);height: 5px;width: 5px;}`,
+  ]
 });

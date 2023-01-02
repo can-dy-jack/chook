@@ -25,7 +25,7 @@ export default () => {
   const [isActive, bind] = useFocus(true);
 
   return (
-    <div {...bind}>
+    <div>
       <div style={{
         background: "rgb(255, 233, 237)",
         padding: "10px",
