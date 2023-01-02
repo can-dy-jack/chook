@@ -16,6 +16,7 @@ import useSet from "./useSet";
 import useThrottle from "./useThrottle";
 import useMap from "./useMap";
 import useActive from "./useActive";
+import useClickOutside from "./useClickOutside";
 
 export {
     useSetState,
@@ -35,5 +36,6 @@ export {
     useThrottle,
     helper,
     useMap,
-    useActive
+    useActive,
+    useClickOutside
 }

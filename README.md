@@ -8,4 +8,5 @@ reack hook library
 ## LICENSE
 MIT
 
+<!-- pnpm dp -->
 <!-- npm publish --access=public -->
