@@ -15,6 +15,7 @@ import useDebounce from "./useDebounce";
 import useSet from "./useSet";
 import useThrottle from "./useThrottle";
 import useMap from "./useMap";
+import useActive from "./useActive";
 
 export {
     useSetState,
@@ -33,5 +34,6 @@ export {
     useSet,
     useThrottle,
     helper,
-    useMap
+    useMap,
+    useActive
 }
