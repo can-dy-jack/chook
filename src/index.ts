@@ -20,6 +20,7 @@ import useClickOutside from "./useClickOutside";
 import useFocus from "./useFocus";
 import useHover from "./useHover";
 import useMousePosition from "./useMousePosition";
+import useResize from "./useResize";
 
 export {
     useSetState,
@@ -44,5 +45,6 @@ export {
     useClickOutside,
     useFocus,
     useHover,
-    useMousePosition
+    useMousePosition,
+    useResize
 }
