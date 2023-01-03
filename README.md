@@ -22,6 +22,7 @@ yarn add @kartjim/chook
   - [`useThrottle`](https://kartjim.cn/chook/components/usethrottle) 用于节流的 `Hook` 函数 
   - [`useSet`](https://kartjim.cn/chook/components/useset) 用于操作 `Set` 数据类型的 `Hook`
   - [`useMap`](https://kartjim.cn/chook/components/usemap) 用于操作 `Map` 数据类型的 `Hook`
+  - [`useClippy`](https://kartjim.cn/chook/components/useclippy) 用于读取和写入用户的剪贴板的 `Hook`
 - 🔔 effect
   - [`useUpdate`](https://kartjim.cn/chook/components/useupdate) 实现组件的强制更新。
   - [`useTimeout`](https://kartjim.cn/chook/components/usetimeout) 在函数组件里可使用 `setTimeout` 一样使用 `useTimeout` 。
