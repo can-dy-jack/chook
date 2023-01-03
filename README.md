@@ -2,8 +2,8 @@
 
 > reack hook library
 
-[![NPM version](https://img.shields.io/npm/v/chook.svg?style=flat)](https://npmjs.org/package/chook)
-[![NPM downloads](http://img.shields.io/npm/dm/chook.svg?style=flat)](https://npmjs.org/package/chook)
+[![NPM version](https://img.shields.io/npm/v/@kartjim/chook.svg?style=flat)](https://npmjs.org/package/@kartjim/chook)
+[![NPM downloads](http://img.shields.io/npm/dm/@kartjim/chook.svg?style=flat)](https://npmjs.org/package/@kartjim/chook)
 
 ```bash
 npm i @kartjim/chook
