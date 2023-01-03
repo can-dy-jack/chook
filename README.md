@@ -8,7 +8,7 @@
 ```bash
 npm i @kartjim/chook
 ```
-
+or 
 ```bash
 yarn add @kartjim/chook
 ```

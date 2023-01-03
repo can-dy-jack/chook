@@ -21,6 +21,7 @@ import useFocus from "./useFocus";
 import useHover from "./useHover";
 import useMousePosition from "./useMousePosition";
 import useResize from "./useResize";
+import useClippy from "./useClippy";
 
 export {
     useSetState,
@@ -46,5 +47,7 @@ export {
     useFocus,
     useHover,
     useMousePosition,
-    useResize
+    useResize,
+
+    useClippy
 }
