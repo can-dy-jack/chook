@@ -14,6 +14,6 @@ export default defineConfig({
   },
   styles: [
     `::-webkit-scrollbar {height: 6px;width: 6px;background-color: transparent;}`,
-    `::-webkit-scrollbar-thumb {background: rgba(13, 110, 253, .5);height: 5px;width: 5px;}`,
+    `::-webkit-scrollbar-thumb {background: rgba(113, 110, 153, .5);height: 5px;width: 5px;}`,
   ]
 });
