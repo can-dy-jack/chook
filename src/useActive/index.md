@@ -1,12 +1,9 @@
 ---
 title: useActive
-order: 2
+order: 3
 toc: content
-
-nav:
-  title: Chook
-group:
-  title: dom
+nav: Chook
+group: dom
 ---
 # useActive
 > 监控点击事件

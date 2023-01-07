@@ -1,11 +1,9 @@
 ---
 title: useClickOutside
-order: 3
+order: 4
 toc: content
-nav:
-  title: Chook
-group:
-  title: dom
+nav: Chook
+group: dom
 ---
 # useClickOutside
 

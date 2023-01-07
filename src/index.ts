@@ -22,6 +22,7 @@ import useHover from "./useHover";
 import useMousePosition from "./useMousePosition";
 import useResize from "./useResize";
 import useClippy from "./useClippy";
+import useFavicon from "./useFavicon";
 
 export {
     useSetState,
@@ -41,6 +42,8 @@ export {
     useThrottle,
     helper,
     useMap,
+    useClippy,
+    useFavicon,
     // event
     useActive,
     useClickOutside,
@@ -48,6 +51,4 @@ export {
     useHover,
     useMousePosition,
     useResize,
-
-    useClippy
 }

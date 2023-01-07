@@ -1,11 +1,9 @@
 ---
 title: useMousePosition
-order: 6
+order: 7
 toc: content
-nav:
-  title: Chook
-group:
-  title: dom
+nav: Chook
+group: dom
 ---
 # useMousePosition
 

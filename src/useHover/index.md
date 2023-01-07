@@ -1,11 +1,9 @@
 ---
 title: useHover
-order: 5
+order: 6
 toc: content
-nav:
-  title: Chook
-group:
-  title: dom
+nav: Chook
+group: dom
 ---
 # useHover
 

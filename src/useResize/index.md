@@ -1,11 +1,9 @@
 ---
 title: useResize
-order: 7
+order: 8
 toc: content
-nav:
-  title: Chook
-group:
-  title: dom
+nav: Chook
+group: dom
 ---
 # useResize
 

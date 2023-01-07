@@ -1,11 +1,9 @@
 ---
 title: useFocus
-order: 4
+order: 5
 toc: content
-nav:
-  title: Chook
-group:
-  title: dom
+nav: Chook
+group: dom
 ---
 # useFocus
 
