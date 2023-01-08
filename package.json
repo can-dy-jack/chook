@@ -1,6 +1,6 @@
 {
   "name": "@kartjim/chook",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "reack hook library",
   "license": "MIT",
   "module": "dist/index.js",
