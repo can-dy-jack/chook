@@ -33,6 +33,7 @@ yarn add @kartjim/chook
   - [`useUnmountedRef`](https://kartjim.cn/chook/components/useunmountedref) 获取当前组件是否已经卸载的 Hook。
 - 🪢 dom
   - [`useTitle`](https://kartjim.cn/chook/components/usetitle) 自定义页面title
+  - [`useFavicon`](https://kartjim.cn/chook/components/usefavicon) 设置页面 `favicon` 的 `Hook`
   - [`useActive`](https://kartjim.cn/chook/components/useactive) 监控点击事件
   - [`useClickOutside`](https://kartjim.cn/chook/components/useclickoutside) 监听目标元素外的点击事件
   - [`useFocus`](https://kartjim.cn/chook/components/usefocus) 监控是否拥有焦点
