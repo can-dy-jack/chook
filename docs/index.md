@@ -11,7 +11,7 @@ hero:
 features:
   - title: 开箱即用
     emoji: 🧰
-    description: 本网站列举的所有 hooks 都会贴上 js 和 ts 源码，直接复制到你的项目中即可！
+    description: 本网站列举的所有 Hooks 都会贴上 ts 实现源码，可以不用下载整个库，直接复制某一个 Hook 到你的项目中即可！
   - title: 安全快速
     emoji: 🔐
     description: 本仓库参考了大量开源库的代码，保证 hooks 的完整性和安全性
