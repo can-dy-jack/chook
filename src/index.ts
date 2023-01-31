@@ -25,6 +25,7 @@ import useClippy from "./useClippy";
 import useFavicon from "./useFavicon";
 import useFirstMountState from "./useFirstMountState";
 import useUpdateEffect from "./useUpdateEffect";
+import useLatest from "./useLatest";
 
 export {
     useSetState,
@@ -48,6 +49,7 @@ export {
     useFavicon,
     useFirstMountState,
     useUpdateEffect,
+    useLatest,
     // event
     useActive,
     useClickOutside,
