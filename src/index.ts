@@ -23,6 +23,8 @@ import useMousePosition from "./useMousePosition";
 import useResize from "./useResize";
 import useClippy from "./useClippy";
 import useFavicon from "./useFavicon";
+import useFirstMountState from "./useFirstMountState";
+import useUpdateEffect from "./useUpdateEffect";
 
 export {
     useSetState,
@@ -44,6 +46,8 @@ export {
     useMap,
     useClippy,
     useFavicon,
+    useFirstMountState,
+    useUpdateEffect,
     // event
     useActive,
     useClickOutside,

@@ -23,6 +23,7 @@ yarn add @kartjim/chook
   - [`useSet`](https://kartjim.cn/chook/components/useset) 用于操作 `Set` 数据类型的 `Hook`
   - [`useMap`](https://kartjim.cn/chook/components/usemap) 用于操作 `Map` 数据类型的 `Hook`
   - [`useClippy`](https://kartjim.cn/chook/components/useclippy) 用于读取和写入用户的剪贴板的 `Hook`
+  - [`useFirstMountState`](https://kartjim.cn/chook/components/usefirstmountstate) 判断组件是否是首次渲染的 `Hook``
 - 🔔 effect
   - [`useUpdate`](https://kartjim.cn/chook/components/useupdate) 实现组件的强制更新。
   - [`useTimeout`](https://kartjim.cn/chook/components/usetimeout) 在函数组件里可使用 `setTimeout` 一样使用 `useTimeout` 。
